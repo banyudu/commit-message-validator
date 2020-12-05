@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jinjutech/commit-message-validator.git"
+    "url": "git+https://github.com/banyudu/commit-message-validator.git"
   },
   "keywords": [
     "git",
@@ -21,9 +21,9 @@
   "author": "Yudu Ban <banyudu@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jinjutech/commit-message-validator/issues"
+    "url": "https://github.com/banyudu/commit-message-validator/issues"
   },
-  "homepage": "https://github.com/jinjutech/commit-message-validator#readme",
+  "homepage": "https://github.com/banyudu/commit-message-validator#readme",
   "bin": {
     "commit-message-validator": "./lib/cli.js"
   },
