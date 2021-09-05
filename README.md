@@ -6,7 +6,7 @@ This package provides you a binary that you can use as a git hook to validate th
 
 This package can be used with githook packages such as [husky](https://www.npmjs.com/package/husky).
 
-If you are looking for a *standard* commit message validator which supports [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) out of sandbox, give [Commitlint](https://github.com/conventional-changelog/commitlint) a try.
+If you are looking for a *standard* commit message validator which supports [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) out of the box, give [Commitlint](https://github.com/conventional-changelog/commitlint) a try.
 
 ## Installation
 
