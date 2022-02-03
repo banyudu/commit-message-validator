@@ -1,5 +1,7 @@
 # commit-message-validator
 
+[![shields badge](https://img.shields.io/npm/dw/commit-message-validator.svg)](https://npmjs.com/package/commit-message-validator)
+
 Git commit-msg validator
 
 This package provides you a binary that you can use as a git hook to validate the commit message, with your custom regex pattern.
@@ -35,11 +37,11 @@ setup husky in `package.json`.
 
 ```json
 {
-    "husky": {
-        "hooks": {
-            "commit-msg": "commit-message-validator"
-        }
+  "husky": {
+    "hooks": {
+      "commit-msg": "commit-message-validator"
     }
+  }
 }
 ```
 
@@ -47,12 +49,12 @@ setup husky in `package.json`.
 
 ```json
 {
-    "config": {
-        "commit-message-validator": {
-            "_comment": "pattern can be Regex string or array of Regex string",
-            "pattern": "your regex pattern here",
-            "errorMessage": "your error message"
-        }
+  "config": {
+    "commit-message-validator": {
+      "_comment": "pattern can be Regex string or array of Regex string",
+      "pattern": "your regex pattern here",
+      "errorMessage": "your error message"
     }
+  }
 }
 ```
